@@ -14,7 +14,7 @@ Evaluation: Evaluation of the trained model using BLEU scores to measure the qua
 
 Installation :
 Clone the repository:
-git clone https://github.com/your-username/image-captioning.git
+git clone https://github.com/astroparadox/image-captioning.git
 Install dependencies
 
 
@@ -26,24 +26,6 @@ Evaluation
 Use pre-trained models or train your own.
 Evaluate the model using the provided evaluation script.
 Compute BLEU scores to assess caption quality.
-
-Directory Structure :
-/project
-├── coco-2017-dataset         # Directory for COCO dataset
-│   └── coco2017              # Subdirectory containing annotations and training images
-│       ├── annotations       # Directory for annotation files
-│       │   └── ...           # Annotation files (e.g., captions_train2017.json)
-│       └── train2017         # Directory for training images
-│           └── ...           # Training images (e.g., images in .jpg format)
-├── train.py              # Script for training the model
-├── test.py               # Script for testing the trained model
-├── evaluate.py           # Script for evaluating the trained model
-└── working                   # Directory for working files
-    ├── captions.txt          # Captions data file
-    ├── tokenizer.pkl         # Tokenizer file
-    ├── mapping.json          # Mapping file
-    ├── model.h5              # Trained model file
-    └── features.pkl          # Extracted features file
 
 
 Contributing :
